@@ -1,0 +1,12 @@
+.App {
+  min-height: 100vh;
+}
+
+.json-output {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  max-height: 400px;
+  overflow-y: auto;
+  font-family: monospace;
+} 

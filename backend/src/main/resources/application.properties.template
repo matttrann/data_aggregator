@@ -1,0 +1,23 @@
+# Server Configuration
+server.port=8081
+
+# Database Configuration
+spring.datasource.url=jdbc:h2:mem:data_aggregator
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Snusbase API Configuration
+snusbase.api.url=https://api.snusbase.com
+snusbase.api.key=YOUR_SNUSBASE_API_KEY_HERE
+
+# JWT Configuration
+jwt.secret=YOUR_JWT_SECRET_HERE
+jwt.expiration=86400000 
